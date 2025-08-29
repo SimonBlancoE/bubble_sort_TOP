@@ -23,8 +23,8 @@ def bubble_sort(array)
     n = last_swap_index
     break unless swapped
   end
-  p array
+  array
 end
 
 test_array = Array.new(10_000) { rand(10_000) }
-bubble_sort(test_array)
+p bubble_sort(test_array)
